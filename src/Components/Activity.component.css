@@ -1,0 +1,116 @@
+*{
+  padding:0px;
+  margin: 0px;
+}
+.Box {
+  width: 330px;
+  margin: auto;
+  box-shadow: 0px 9.6px 21.6px rgba(0, 0, 0, 0.13), 0px 1.8px 5.4px rgba(0, 0, 0, 0.11);
+}
+.Box > h3 {
+  font-weight: 400;
+  background: #f9f9fa;
+  padding: 15px;
+}
+.input-field {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+.input-field > span {
+  color: #da1e28;
+}
+._2nd-input-box {
+  display: flex;
+  gap: 8%;
+}
+label{
+  font-size: 12px;
+}
+._2nd-input-box .checkbox {
+  display: grid;
+  align-items: center;
+  height: 100%;
+}
+.input-field > input {
+  background-color: #f4f4f4;
+  border: none;
+  border-bottom: 1px solid #9b9b9b;
+  padding: 10px 15px;
+  outline: none;
+}
+#taskName {
+  width: 100%;
+}
+.task-btns {
+  padding: 15px;
+  display: flex;
+  gap: 13px;
+}
+.task-btns button {
+  width: 49%;
+  text-align: left;
+  padding: 10px 15px;
+  font-size: 14px;
+  box-sizing: border-box;
+  border: 2px solid #efefef;
+  background-color: #ffffff;
+}
+.task-btns > button:enabled:last-child {
+  border: 2px solid blueviolet;
+  color: white;
+  background: blueviolet;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.task-btns > button:enabled:last-child:hover {
+  border: 2px solid rgb(116, 31, 196);
+  background: rgb(119, 32, 201);
+}
+.task-btns > button:disabled:last-child {
+  background-color: #c6c6c6;
+  border: 2px solid #c6c6c6;
+  color: grey;
+}
+.teamTask {
+  padding: 0px 15px;
+  margin-top: 40px;
+  margin-bottom: 13px;
+}
+.task {
+  padding: 15px;
+  border-top: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
+  display: flex;
+  justify-content: space-between;
+}
+.task h5 {
+  font-size: 14px;
+  font-weight: 400;
+  color: #161616;
+}
+.task p {
+  font-size: 12px;
+  display: flex;
+  gap: 4px;
+  color: #4c4c4c;
+}
+.task img {
+  height: 16px;
+  cursor: pointer;
+}
+.task > div:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.task span {
+  border: 1px solid #8d8d8d;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 14px;
+  width: 14px;
+  color: #8d8d8d;
+}
